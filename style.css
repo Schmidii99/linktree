@@ -14,7 +14,7 @@ body {
     min-height: 100vh;
     font-family: var(--font);
     background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%);
-    /* background-image: url('https://bit.ly/3nFVqJh'); */
+    /* background-image: url('https://r4.wallpaperflare.com/wallpaper/175/524/956/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-d8562dc820d0acd8506c415eb8e2a49a.jpg'); */
     opacity: 0;
     animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
     animation-fill-mode: forwards;
@@ -46,7 +46,7 @@ body {
 }
 
 #links {
-    max-width: 675px;
+    max-width: 35rem;
     width: auto;
     display: block;
     margin: 27px auto;
@@ -58,7 +58,7 @@ body {
     color: var(--accentColor);
     border: solid var(--accentColor) 2px;
     border-radius: 10px;
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: center;
     display: block;
     margin-left: 10px;
@@ -97,7 +97,7 @@ body {
     background: linear-gradient(90deg, var(--bgColor), var(--accentColor), var(--bgColor));
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 3s linear var(--delay) infinite;
+    animation: animate 5s linear var(--delay) infinite;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
